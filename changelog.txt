@@ -1,2 +1,9 @@
+0.1.0 (2024.04.03)
+- redux added
+- redux-thunc added
+- axios added
+- fetch to grp.nalog.gov.by added
+- font Roboto added
+
 0.0.0 (2024.04.03)
 - vite React TypeScript project created
