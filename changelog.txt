@@ -1,0 +1,2 @@
+0.0.0 (2024.04.03)
+- vite React TypeScript project created
