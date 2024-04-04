@@ -1,3 +1,6 @@
+0.1.1 (2024.04.04)
+- CORS fixed
+
 0.1.0 (2024.04.03)
 - redux added
 - redux-thunc added

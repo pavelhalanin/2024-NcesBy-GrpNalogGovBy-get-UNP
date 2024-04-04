@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from './UnpPage.module.css';
 import { RootStoreDto } from '../../store';
-import fetchGrpNalogGovByUNP from './../../utils/fetch-grp-nalog-gov-by/fetch-grp-nalog-gov-by';
+import fetchDePaByGetUNP from '../../utils/fetch-grp-nalog-gov-by/fetch-de-pa-by-get-UNP';
 import { GrpNalogGovByTypes } from '../../types/grp.nalog.gov.by/api/grp-public/data/GrpNalogGovByReducer.dto';
 
 export default function UnpPage() {
@@ -24,7 +24,7 @@ export default function UnpPage() {
       }
 
       try {
-        const data = await fetchGrpNalogGovByUNP(unp);
+        const data = await fetchDePaByGetUNP(unp);
         dispatch({
           type: GrpNalogGovByTypes.FETCH_GRP_NALOG_GOV_BY_UNP_SUCCESS,
           payload: data,
